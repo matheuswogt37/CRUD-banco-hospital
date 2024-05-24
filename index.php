@@ -5,7 +5,8 @@ $routes = [
     '/' => 'src/home.php',
     '/home' => 'src/home.php',
     '/admin' => 'src/admin.php',
-    '/acompanhante' => 'src/acompanhante.php'
+    '/acompanhante' => 'src/acompanhante/acompanhante.php',
+    '/cadastro_acompanhante' => 'src/acompanhante/cadastro_acompanhante.php'
 ];
 
 // Get the current URL path
