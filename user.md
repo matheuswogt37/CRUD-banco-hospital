@@ -1,3 +1,3 @@
-user - admin
-email - admin@admin.com
+user - admin \
+email - admin@admin.com \
 pass - admin
