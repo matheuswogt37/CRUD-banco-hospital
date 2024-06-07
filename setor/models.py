@@ -1,8 +1,10 @@
 from django.db import models
 
 class Setor(models.Model):
-    nome = models.CharField(max_length=20);
-    funcao = models.CharField(max_length=20);
+    id_pk = models.AutoField(primary_key=True)
+    nome = models.CharField(max_length=20, blank=True, null=True)
+    funcao = models.CharField(max_length=20, blank=True, null=True)
 
-    # def __str__(self):
-    #     return f"{self.nome} - {self.funcao}"
+    class Meta:
+        managed = False
+        db_table = 'setor'
